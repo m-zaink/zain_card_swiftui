@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0AA24DE92568E0040025C294 /* ZainCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24DE82568E0040025C294 /* ZainCardApp.swift */; };
-		0AA24DEB2568E0040025C294 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24DEA2568E0040025C294 /* ContentView.swift */; };
+		0AA24DEB2568E0040025C294 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24DEA2568E0040025C294 /* HomeView.swift */; };
 		0AA24DED2568E0060025C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA24DEC2568E0060025C294 /* Assets.xcassets */; };
 		0AA24DF02568E0060025C294 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA24DEF2568E0060025C294 /* Preview Assets.xcassets */; };
 		0AA24DFA2568E1D80025C294 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AA24DF92568E1D80025C294 /* Pacifico-Regular.ttf */; };
+		0AA24DFD2568E6180025C294 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24DFC2568E6180025C294 /* InfoView.swift */; };
+		0AA24E022568E7E30025C294 /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24E012568E7E30025C294 /* ProfilePictureView.swift */; };
+		0AA24E072568E8DA0025C294 /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24E062568E8DA0025C294 /* NameView.swift */; };
+		0AA24E0C2568E96C0025C294 /* DesignationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA24E0B2568E96C0025C294 /* DesignationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AA24DE52568E0040025C294 /* ZainCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZainCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA24DE82568E0040025C294 /* ZainCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZainCardApp.swift; sourceTree = "<group>"; };
-		0AA24DEA2568E0040025C294 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0AA24DEA2568E0040025C294 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0AA24DEC2568E0060025C294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA24DEF2568E0060025C294 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0AA24DF12568E0060025C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AA24DF92568E1D80025C294 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0AA24DFC2568E6180025C294 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		0AA24E012568E7E30025C294 /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
+		0AA24E062568E8DA0025C294 /* NameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		0AA24E0B2568E96C0025C294 /* DesignationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				0AA24DF82568E1CC0025C294 /* Fonts */,
+				0AA24E002568E7CD0025C294 /* Views */,
 				0AA24DE82568E0040025C294 /* ZainCardApp.swift */,
-				0AA24DEA2568E0040025C294 /* ContentView.swift */,
 				0AA24DEC2568E0060025C294 /* Assets.xcassets */,
 				0AA24DF12568E0060025C294 /* Info.plist */,
 				0AA24DEE2568E0060025C294 /* Preview Content */,
@@ -78,6 +86,18 @@
 				0AA24DF92568E1D80025C294 /* Pacifico-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0AA24E002568E7CD0025C294 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AA24DEA2568E0040025C294 /* HomeView.swift */,
+				0AA24E012568E7E30025C294 /* ProfilePictureView.swift */,
+				0AA24E062568E8DA0025C294 /* NameView.swift */,
+				0AA24E0B2568E96C0025C294 /* DesignationView.swift */,
+				0AA24DFC2568E6180025C294 /* InfoView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AA24DEB2568E0040025C294 /* ContentView.swift in Sources */,
+				0AA24DEB2568E0040025C294 /* HomeView.swift in Sources */,
+				0AA24DFD2568E6180025C294 /* InfoView.swift in Sources */,
+				0AA24E0C2568E96C0025C294 /* DesignationView.swift in Sources */,
 				0AA24DE92568E0040025C294 /* ZainCardApp.swift in Sources */,
+				0AA24E072568E8DA0025C294 /* NameView.swift in Sources */,
+				0AA24E022568E7E30025C294 /* ProfilePictureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
